@@ -93,3 +93,13 @@ Set appropriate permissions for storage and bootstrap cache directories.
 ##Url
 
 https://holiday-calendar.test/api/holidays
+
+##Project SETUP
+
+composer create-project --prefer-dist laravel/laravel:^10.0 holiday-calendar
+php artisan make:migration create_holidays_table --create=holidays
+php artisan migrate
+php artisan make:model Holiday
+php artisan make:command FetchHolidays
+php artisan fetch:holidays
+php artisan make:controller HolidayController
