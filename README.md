@@ -65,9 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-##Notes
-
-Notes
+## Notes
 Environment Setup:
 
 Make sure your .env file has the correct database and API key configurations.
@@ -90,11 +88,11 @@ Follow your hosting provider's instructions for deploying a Laravel application.
 Ensure you update your .env file on the server with the correct database credentials and API key.
 Set appropriate permissions for storage and bootstrap cache directories.
 
-##Url
+## Url
 
 https://holiday-calendar.test/api/holidays
 
-##Project SETUP
+## Project SETUP
 
 composer create-project --prefer-dist laravel/laravel:^10.0 holiday-calendar
 php artisan make:migration create_holidays_table --create=holidays
