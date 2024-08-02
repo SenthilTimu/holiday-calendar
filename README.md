@@ -64,3 +64,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+##Notes
+
+Notes
+Environment Setup:
+
+Make sure your .env file has the correct database and API key configurations.
+Run composer install to install all necessary dependencies.
+
+Migration:
+
+Run php artisan migrate to set up the database schema.
+Fetching Holidays:
+
+Run php artisan fetch:holidays to fetch and store holidays in the database.
+
+Accessing the Calendar:
+
+Navigate to http://yourdomain.com/holidays to view the holiday calendar.
+
+Deployment:
+
+Follow your hosting provider's instructions for deploying a Laravel application.
+Ensure you update your .env file on the server with the correct database credentials and API key.
+Set appropriate permissions for storage and bootstrap cache directories.
+
+##Url
+
+https://holiday-calendar.test/api/holidays
